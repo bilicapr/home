@@ -13,14 +13,6 @@
 
 
     <script>
-        (function() {
-            var theme = document.cookie.match(/themeState=([^;]+)/);
-            if (theme && theme[1] === "Dark") {
-            document.documentElement.setAttribute('data-theme', 'dark');
-            }
-        })();
-    </script>
-    <script>
         var _hmt = _hmt || [];
         (function() {
         var hm = document.createElement("script");
@@ -30,6 +22,14 @@
         })();
     </script>
 
+    <script>
+        (function() {
+            var theme = document.cookie.match(/themeState=([^;]+)/);
+            if (theme && theme[1] === "Dark") {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        })();
+    </script>
 
 </head>
 <body>

@@ -1,0 +1,6 @@
+name = "capr-home"
+main = "index.js"
+compatibility_date = "2025-10-28"
+
+[site]
+bucket = "./public"

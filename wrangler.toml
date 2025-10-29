@@ -1,4 +1,4 @@
-name = "capr-home"
+name = "home"
 main = "index.js"
 compatibility_date = "2025-10-28"
 
